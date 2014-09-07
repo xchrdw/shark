@@ -1,0 +1,140 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "xchrdw@gmail.com",
+    "longName": "shark",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/giphy13.png",
+                "name": "GIPHY_13",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy24.png",
+                "name": "GIPHY_24",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy23.png",
+                "name": "GIPHY_23",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy22.png",
+                "name": "GIPHY_22",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy20.png",
+                "name": "GIPHY_20",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy21.png",
+                "name": "GIPHY_21",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy19.png",
+                "name": "GIPHY_19",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy18.png",
+                "name": "GIPHY_18",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy17.png",
+                "name": "GIPHY_17",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy16.png",
+                "name": "GIPHY_16",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy15.png",
+                "name": "GIPHY_15",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy14.png",
+                "name": "GIPHY_14",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy12.png",
+                "name": "GIPHY_12",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy11.png",
+                "name": "GIPHY_11",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy09.png",
+                "name": "GIPHY_09",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy10.png",
+                "name": "GIPHY_10",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy08.png",
+                "name": "GIPHY_08",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy07.png",
+                "name": "GIPHY_07",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy06.png",
+                "name": "GIPHY_06",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy05.png",
+                "name": "GIPHY_05",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy04.png",
+                "name": "GIPHY_04",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy03.png",
+                "name": "GIPHY_03",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy02.png",
+                "name": "GIPHY_02",
+                "type": "png"
+            },
+            {
+                "file": "images/giphy01.png",
+                "name": "GIPHY_01",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "shark",
+    "uuid": "5941509d-d3d2-41d8-8bcc-9c8c8891f9cd",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

@@ -33,7 +33,7 @@ static uint32_t FRAME_RESOURCES[] = {
   RESOURCE_ID_GIPHY_24
 };
 static GBitmap* s_frames[FRAMES];
-static BitmapLayer *s_bitmap_layer;
+static BitmapLayer* s_bitmap_layer;
 
 static AppTimer* s_timer;
 
@@ -50,9 +50,8 @@ void handle_timer(void* data) {
 void handle_init(void) {
 	// Create a window and text layer
 	window = window_create();
-  APP_LOG(APP_LOG_LEVEL_DEBUG, "1");
+  APP_LOG(APP_LOG_LEVEL_DEBUG, "window created");
 
-  //s_frames = (GBitmap**)malloc(sizeof(GBitmap*)*FRAMES);
   for (int i=0;i<FRAMES;i+=1+FRAME_SKIP) {
     // Create GBitmap, then set to created BitmapLayer
     s_frames[i] = gbitmap_create_with_resource(FRAME_RESOURCES[i]);
@@ -67,16 +66,6 @@ void handle_init(void) {
   bitmap_layer_set_bitmap(s_bitmap_layer, s_frames[0]);
   layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_bitmap_layer));
   
-  text_layer = text_layer_create(GRect(0, 0, 144, 154));
-  // Set the text, font, and text alignment
-  text_layer_set_background_color(text_layer, GColorClear);
-	text_layer_set_text(text_layer, "Hi, I'm another Pebble!");
-	text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
-	text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
-	
-	// Add the text layer to the window
-	//layer_add_child(window_get_root_layer(window), text_layer_get_layer(text_layer));
-
 	// Push the window
 	window_stack_push(window, true);
 	

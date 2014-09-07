@@ -4,18 +4,17 @@ Window *window;
 TextLayer *text_layer;
 
 #define FRAMES 35
-static int TIMER_TIMEOUT = 100;
-static int FRAME_SKIP = 1;
+static int TIMER_TIMEOUT = 1000;
 static uint32_t FRAME_RESOURCES[] = { 
-  RESOURCE_ID_01, 
-  RESOURCE_ID_02, 
-  RESOURCE_ID_03,
-  RESOURCE_ID_04,
-  RESOURCE_ID_05,
-  RESOURCE_ID_06,
-  RESOURCE_ID_07,
-  RESOURCE_ID_08,
-  RESOURCE_ID_09,
+  RESOURCE_ID_1, 
+  RESOURCE_ID_2, 
+  RESOURCE_ID_3,
+  RESOURCE_ID_4,
+  RESOURCE_ID_5,
+  RESOURCE_ID_6,
+  RESOURCE_ID_7,
+  RESOURCE_ID_8,
+  RESOURCE_ID_9,
   RESOURCE_ID_10,
   RESOURCE_ID_11,
   RESOURCE_ID_12,
@@ -43,7 +42,7 @@ static uint32_t FRAME_RESOURCES[] = {
   RESOURCE_ID_34,
   RESOURCE_ID_35  
 };
-static GBitmap* s_frames[FRAMES];
+static GBitmap* s_frame;
 static BitmapLayer* s_bitmap_layer;
 
 static AppTimer* s_timer;
@@ -53,28 +52,25 @@ static int s_current_frame = 0;
 
 void handle_timer(void* data) {
   	//APP_LOG(APP_LOG_LEVEL_DEBUG, "timer");
-    s_current_frame = (s_current_frame+1+FRAME_SKIP)%FRAMES;
-    bitmap_layer_set_bitmap(s_bitmap_layer, s_frames[s_current_frame]);
+    GBitmap* old_frame = s_frame;  
+    s_current_frame = (s_current_frame+1)%FRAMES;
+    s_frame = gbitmap_create_with_resource(FRAME_RESOURCES[s_current_frame]);
+    if (s_frame == NULL) {
+        APP_LOG(APP_LOG_LEVEL_DEBUG, "error loading image");  
+    }
+    bitmap_layer_set_bitmap(s_bitmap_layer, s_frame);
+    gbitmap_destroy(old_frame);
     s_timer = app_timer_register(TIMER_TIMEOUT, handle_timer, NULL); 		
 }
 
-void handle_init(void) {
+void handle_init_x(void) {
 	// Create a window and text layer
 	window = window_create();
-  APP_LOG(APP_LOG_LEVEL_DEBUG, "window created");
-
-  for (int i=0;i<FRAMES;i+=1+FRAME_SKIP) {
-    // Create GBitmap, then set to created BitmapLayer
-    s_frames[i] = gbitmap_create_with_resource(FRAME_RESOURCES[i]);
-    if (s_frames[i] == NULL) {
-      APP_LOG(APP_LOG_LEVEL_DEBUG, "error loading image");  
-    } else {
-      APP_LOG(APP_LOG_LEVEL_DEBUG, "img loaded");
-    }
-  }
+  APP_LOG(APP_LOG_LEVEL_DEBUG, "window created!");   
   
+  s_frame = gbitmap_create_with_resource(FRAME_RESOURCES[0]);
   s_bitmap_layer = bitmap_layer_create(GRect(0, 0, 144, 168));
-  bitmap_layer_set_bitmap(s_bitmap_layer, s_frames[0]);
+  bitmap_layer_set_bitmap(s_bitmap_layer, s_frame);
   layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_bitmap_layer));
   
 	// Push the window
@@ -87,9 +83,6 @@ void handle_init(void) {
 
 
 void handle_deinit(void) {
-  for(int i=0;i<FRAMES;i++) {
-    gbitmap_destroy(s_frames[i]);  
-  }  
 	// Destroy the text layer
 	text_layer_destroy(text_layer);
 	
@@ -100,7 +93,7 @@ void handle_deinit(void) {
 }
 
 int main(void) {
-	handle_init();
+	handle_init_x();
 	app_event_loop();
 	handle_deinit();
 }

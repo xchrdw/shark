@@ -4,162 +4,199 @@
         ""
     ],
     "companyName": "xchrdw@gmail.com",
-    "longName": "shark",
+    "longName": "sammy",
     "projectType": "native",
     "resources": {
         "media": [
-            { "file": "images/sammytheshark-88613a4b057.png",
-              "name": "0",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b111.png",
+                "name": "35",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b003.png",
-              "name": "1",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b060.png",
-              "name": "2",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b054.png",
+                "name": "35",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b006.png",
-              "name": "3",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b063.png",
-              "name": "4",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b108.png",
+                "name": "34",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b009.png",
-              "name": 5,
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b066.png",
-              "name": "6",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b051.png",
+                "name": "33",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b012.png",
-              "name": "7",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b069.png",
-              "name": "8",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b105.png",
+                "name": "32",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b015.png",
-              "name": "9",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b072.png",
-              "name": "10",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b048.png",
+                "name": "31",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b018.png",
-              "name": "11",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b075.png",
-              "name": "12",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b102.png",
+                "name": "30",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b021.png",
-              "name": "13",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b078.png",
-              "name": "14",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b045.png",
+                "name": "29",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b024.png",
-              "name": "15",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b081.png",
-              "name": "16",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b099.png",
+                "name": "28",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b027.png",
-              "name": "17",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b084.png",
-              "name": "18",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b042.png",
+                "name": "27",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b030.png",
-              "name": "19",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b087.png",
-              "name": "20",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b096.png",
+                "name": "26",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b033.png",
-              "name": "21",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b090.png",
-              "name": "22",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b039.png",
+                "name": "25",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b036.png",
-              "name": "23",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b093.png",
-              "name": "24",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b093.png",
+                "name": "24",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b039.png",
-              "name": "25",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b096.png",
-              "name": "26",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b036.png",
+                "name": "23",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b042.png",
-              "name": "27",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b099.png",
-              "name": "28",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b090.png",
+                "name": "22",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b045.png",
-              "name": "29",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b102.png",
-              "name": "30",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b033.png",
+                "name": "21",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b048.png",
-              "name": "31",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b105.png",
-              "name": "32",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b087.png",
+                "name": "20",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b051.png",
-              "name": "33",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b108.png",
-              "name": "34",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b030.png",
+                "name": "19",
+                "type": "png"
             },
-            { "file": "images/sammytheshark-88613a4b054.png",
-              "name": "35",
-              "type": "png"
-            },  
-            { "file": "images/sammytheshark-88613a4b111.png",
-              "name": "36",
-              "type": "png"
+            {
+                "file": "images/sammytheshark-88613a4b084.png",
+                "name": "18",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b027.png",
+                "name": "17",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b081.png",
+                "name": "16",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b024.png",
+                "name": "15",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b078.png",
+                "name": "14",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b021.png",
+                "name": "13",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b075.png",
+                "name": "1012",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b018.png",
+                "name": "11",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b072.png",
+                "name": "1010",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b015.png",
+                "name": "9",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b069.png",
+                "name": "108",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b012.png",
+                "name": "7",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b066.png",
+                "name": "106",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b009.png",
+                "name": "5",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b063.png",
+                "name": "4",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b006.png",
+                "name": "3",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b060.png",
+                "name": "102",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b003.png",
+                "name": "1",
+                "type": "png"
+            },
+            {
+                "file": "images/sammytheshark-88613a4b057.png",
+                "name": "100",
+                "type": "png"
             }
         ]
     },
-    "shortName": "shark",
-    "uuid": "5941509d-d3d2-41d8-8bcc-9c8c8891f9cd",
+    "shortName": "sammy",
+    "uuid": "88708db0-36ac-11e4-8510-0800200c9a66",
     "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {

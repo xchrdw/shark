@@ -4,7 +4,7 @@ Window *window;
 TextLayer *text_layer;
 
 #define FRAMES 36
-static int TIMER_TIMEOUT = 1000;
+static int TIMER_TIMEOUT = 100;
 static uint32_t FRAME_RESOURCES[] = { 
   RESOURCE_ID_1,   
   RESOURCE_ID_3,  

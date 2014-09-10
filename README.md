@@ -5,6 +5,6 @@ part of our hack for the [TechCrunch Disrupt SF Hackathon 2014](http://disruptsf
 
 ![sammy](http://i.imgur.com/cwnLlsB.gif "sammy") 
 
-The Logo DigitalOcean
+The logo of DigitalOcean.
 
 more information can be found [here](https://github.com/FraBle/sparkdo/)
